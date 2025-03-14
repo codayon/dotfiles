@@ -3,13 +3,13 @@
 ################################################################################
 
 # With:       reflector --save mirrorlist --sort rate --verbose -l 100 -n 5 -p https --ipv4
-# When:       2025-03-12 18:21:10 UTC
+# When:       2025-03-14 14:06:31 UTC
 # From:       https://archlinux.org/mirrors/status/json/
-# Retrieved:  2025-03-12 18:21:10 UTC
-# Last Check: 2025-03-12 17:33:07 UTC
+# Retrieved:  2025-03-14 14:06:31 UTC
+# Last Check: 2025-03-14 13:58:48 UTC
 
-Server = https://de.mirrors.cicku.me/archlinux/$repo/os/$arch
+Server = https://sg.mirrors.cicku.me/archlinux/$repo/os/$arch
+Server = https://ch.mirrors.cicku.me/archlinux/$repo/os/$arch
 Server = https://nl.mirrors.cicku.me/archlinux/$repo/os/$arch
-Server = https://jp.mirrors.cicku.me/archlinux/$repo/os/$arch
-Server = https://kr.mirrors.cicku.me/archlinux/$repo/os/$arch
-Server = https://it.mirrors.cicku.me/archlinux/$repo/os/$arch
+Server = https://fr.mirrors.cicku.me/archlinux/$repo/os/$arch
+Server = https://gb.mirrors.cicku.me/archlinux/$repo/os/$arch
