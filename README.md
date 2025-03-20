@@ -1,0 +1,1 @@
+# A compact repository to store all my dotfiles aka configuraiton files.
