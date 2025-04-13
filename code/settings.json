@@ -3,7 +3,8 @@
   // Core Editor Settings
   // ======================================
   "editor.fontSize": 16,
-  "editor.fontFamily": "'JetBrains Mono'",
+  "editor.fontFamily": "'Fira Code', Hack, monospace",
+  "editor.fontLigatures": true,
   "editor.lineHeight": 24,
   "editor.linkedEditing": true,
   "editor.formatOnSave": true,
@@ -96,7 +97,7 @@
   // Default Formatter
   // ======================================
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -129,5 +130,6 @@
   "prettier.semi": true,
   "prettier.trailingComma": "all",
   "prettier.bracketSpacing": true,
-  "prettier.arrowParens": "always"
+  "prettier.arrowParens": "always",
+  "prettier.bracketSameLine": true
 }
