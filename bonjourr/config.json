@@ -1,0 +1,140 @@
+{
+    "about": {
+        "browser": "firefox",
+        "version": "20.4.2"
+    },
+    "showall": true,
+    "lang": "en",
+    "dark": "system",
+    "favicon": "",
+    "tabtitle": "",
+    "greeting": "",
+    "pagegap": 0,
+    "pagewidth": 900,
+    "time": true,
+    "main": false,
+    "dateformat": "auto",
+    "background_blur": 15,
+    "background_bright": 0.8,
+    "background_type": "local",
+    "quicklinks": false,
+    "syncbookmarks": null,
+    "textShadow": 0.2,
+    "announcements": "off",
+    "review": 26,
+    "css": "#background,\n#background-bis {\n  display: none;\n}\n\n#background_overlay {\n  background-color: #222222;\n}\n\nh1 {\n  font-family: 'Hack';\n  background-color: #2c2c2c;\n  border: 10px solid #5e686d;\n  border-radius: 25px;\n  padding: 80px;\n}\n",
+    "hide": {
+        "greetings": true,
+        "date": true,
+        "clock": false
+    },
+    "linkstyle": "medium",
+    "linktitles": true,
+    "linkbackgrounds": true,
+    "linknewtab": false,
+    "linksrow": 6,
+    "linkgroups": {
+        "on": false,
+        "selected": "default",
+        "groups": [
+            "default"
+        ],
+        "pinned": [],
+        "synced": []
+    },
+    "clock": {
+        "ampm": false,
+        "size": 1.125,
+        "analog": false,
+        "seconds": true,
+        "timezone": "auto",
+        "ampmlabel": false,
+        "worldclocks": false
+    },
+    "analogstyle": {
+        "face": "none",
+        "hands": "modern",
+        "shape": "round",
+        "border": "#ffff",
+        "background": "#fff2"
+    },
+    "worldclocks": [],
+    "unsplash": {
+        "every": "hour",
+        "collection": "",
+        "lastCollec": "day",
+        "time": 1744542493424
+    },
+    "weather": {
+        "unit": "metric",
+        "provider": "",
+        "moreinfo": "none",
+        "forecast": "auto",
+        "temperature": "actual",
+        "geolocation": "approximate",
+        "city": "ashulia"
+    },
+    "notes": {
+        "on": false,
+        "opacity": 0.1,
+        "text": "## Action Plan for Sunday\n\n[ ] Unlock the Power of JavaScript\n\n",
+        "width": 32,
+        "align": "left"
+    },
+    "searchbar": {
+        "on": false,
+        "opacity": 0.1,
+        "newtab": false,
+        "suggestions": true,
+        "engine": "default",
+        "request": "",
+        "placeholder": ""
+    },
+    "quotes": {
+        "on": false,
+        "author": false,
+        "type": "classic",
+        "frequency": "day",
+        "last": 1744540864509
+    },
+    "font": {
+        "size": "14",
+        "family": "",
+        "system": true,
+        "weight": "300",
+        "weightlist": [
+            "100",
+            "200",
+            "300",
+            "400",
+            "500",
+            "600",
+            "700",
+            "800",
+            "900"
+        ]
+    },
+    "supporters": {
+        "enabled": false,
+        "closed": true,
+        "month": 4
+    },
+    "move": {
+        "selection": "single",
+        "layouts": {
+            "single": {
+                "items": {
+                    "time": {
+                        "box": "center",
+                        "text": "center"
+                    }
+                },
+                "grid": [
+                    [
+                        "time"
+                    ]
+                ]
+            }
+        }
+    }
+}
