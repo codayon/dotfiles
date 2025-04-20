@@ -1,0 +1,135 @@
+{
+  // ======================================
+  // Core Editor Settings
+  // ======================================
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'Fira Code', Hack, monospace",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 24,
+  "editor.linkedEditing": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.renderWhitespace": "selection",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+
+  // ======================================
+  // Green-Toned Theme (Dimmed Accents)
+  // ======================================
+  "workbench.colorTheme": "Monokai Dimmed",
+  "workbench.colorCustomizations": {
+    // Base UI Colors (Desaturated Greenish)
+    "titleBar.activeBackground": "#26302B",
+    "titleBar.activeForeground": "#A7B5A8",
+    "activityBar.background": "#26302B",
+    "activityBar.foreground": "#B0B9B4",
+    "statusBar.background": "#26302B",
+    "statusBar.foreground": "#A7B5A8",
+    "sideBar.background": "#2C3431",
+    "sideBarSectionHeader.background": "#3A4B46",
+
+    // Editor Colors
+    "editor.background": "#1A2220",
+    "editor.foreground": "#B0B9B4",
+    "editorLineNumber.foreground": "#4F5B53",
+    "editorLineNumber.activeForeground": "#A4B3A7",
+    "editorCursor.foreground": "#6A7C5F",
+    "editor.selectionBackground": "#2D3A2F40",
+    "editor.selectionHighlightBackground": "#2E473640",
+    "editor.wordHighlightBackground": "#2E473630",
+
+    // Green-Toned Syntax Colors
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": ["comment", "punctuation.definition.comment"],
+          "settings": {
+            "foreground": "#6C7A64",
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": ["string", "punctuation.definition.string"],
+          "settings": {
+            "foreground": "#A1C29F" // Soft sage green
+          }
+        },
+        {
+          "scope": ["constant.numeric", "constant.language"],
+          "settings": {
+            "foreground": "#A79F6D" // Muted olive green
+          }
+        },
+        {
+          "scope": ["keyword", "storage.type", "storage.modifier"],
+          "settings": {
+            "foreground": "#8B9E80" // Light olive green
+          }
+        },
+        {
+          "scope": ["entity.name.function", "support.function"],
+          "settings": {
+            "foreground": "#7A8B76" // Sage green
+          }
+        },
+        {
+          "scope": ["variable", "meta.parameter"],
+          "settings": {
+            "foreground": "#A98A8A" // Muted rosewood
+          }
+        }
+      ]
+    }
+  },
+
+  // ======================================
+  // UI Configuration
+  // ======================================
+  "workbench.tree.indent": 16,
+  "workbench.list.smoothScrolling": true,
+  "window.titleBarStyle": "custom",
+  "workbench.editor.wrapTabs": true,
+  "workbench.iconTheme": "vs-minimal",
+
+  // ======================================
+  // Default Formatter
+  // ======================================
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // ======================================
+  // Prettier Settings
+  // ======================================
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 80,
+  "prettier.tabWidth": 2,
+  "prettier.semi": true,
+  "prettier.trailingComma": "all",
+  "prettier.bracketSpacing": true,
+  "prettier.arrowParens": "always",
+  "prettier.bracketSameLine": true
+}
