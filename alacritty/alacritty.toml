@@ -1,0 +1,81 @@
+# ─── Font Configuration ─────────────────────────────────────────────
+[font]
+size = 16.0
+
+[font.normal]
+family = "Fira Code"
+style = "Regular"
+
+[font.bold]
+family = "Fira Code"
+style = "Bold"
+
+[font.italic]
+family = "Fira Code"
+style = "Italic"
+
+# ─── Window Appearance ───────────────────────────────────────────────
+[window]
+padding = { x = 8, y = 8 }
+decorations = "full"
+startup_mode = "Windowed"
+opacity = 1
+
+# ─── Cursor and Selection ────────────────────────────────────────────
+[cursor]
+style = {shape = "Beam", blinking = "On"}
+
+[selection]
+save_to_clipboard = true
+
+# ─── Colors ───────────────────────────────────────────────────────────
+[colors.primary]
+background = "#1C1C1C"  # dark charcoal
+foreground = "#D9D9D9"  # soft ash gray
+
+[colors.cursor]
+text = "#1C1C1C"
+cursor = "#FF7043"
+
+[colors.selection]
+text = "#C4DAD2"
+background = "#343131"
+
+[colors.normal]
+black = "#181818"
+red = "#ac4242"
+green = "#90a959"
+yellow = "#f4bf75"
+blue = "#6a9fb5"
+magenta = "#aa759f"
+cyan = "#75b5aa"
+white = "#d8d8d8"
+
+[colors.bright]
+black = "#6b6b6b"
+red = "#c55555"
+green = "#aac474"
+yellow = "#feca88"
+blue = "#82b8c8"
+magenta = "#c28cb8"
+cyan = "#93d3c3"
+white = "#f8f8f8"
+
+[colors.dim]
+black = "#0f0f0f"
+red = "#712b2b"
+green = "#5f6f3a"
+yellow = "#a17e4d"
+blue = "#456877"
+magenta = "#704d68"
+cyan = "#4d7770"
+white = "#8e8e8e"
+
+# ─── Bell ────────────────────────────────────────────────────────────
+[bell]
+animation = "Ease"
+duration = 0
+
+# ─── Mouse ───────────────────────────────────────────────────────────
+[mouse]
+hide_when_typing = true
