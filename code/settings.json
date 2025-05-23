@@ -1,135 +1,29 @@
 {
-  // ======================================
-  // Core Editor Settings
-  // ======================================
   "editor.fontSize": 16,
-  "editor.fontFamily": "'Fira Code', Hack, monospace",
+  "editor.tabSize": 2,
   "editor.fontLigatures": true,
   "editor.lineHeight": 24,
   "editor.linkedEditing": true,
-  "editor.formatOnSave": true,
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.smoothScrolling": true,
   "editor.renderWhitespace": "selection",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-
-  // ======================================
-  // Washed-Out Muted Theme (No Extensions)
-  // ======================================
-  "workbench.colorTheme": "Default Dark Modern",
-  "workbench.colorCustomizations": {
-    // Base UI Colors (Desaturated)
-    "titleBar.activeBackground": "#23262d",
-    "titleBar.activeForeground": "#b8bbc2",
-    "activityBar.background": "#23262d",
-    "activityBar.foreground": "#d0d3da",
-    "statusBar.background": "#23262d",
-    "statusBar.foreground": "#b8bbc2",
-    "sideBar.background": "#282b32",
-    "sideBarSectionHeader.background": "#2e3138",
-
-    // Editor Colors
-    "editor.background": "#1e2128",
-    "editor.foreground": "#d0d3da",
-    "editorLineNumber.foreground": "#4a4d54",
-    "editorLineNumber.activeForeground": "#a8abb2",
-    "editorCursor.foreground": "#7a8ba6",
-    "editor.selectionBackground": "#3a3d4440",
-    "editor.selectionHighlightBackground": "#3a4d5a40",
-    "editor.wordHighlightBackground": "#3a4d5a30",
-
-    // Washed-Out Syntax Colors
-    "editor.tokenColorCustomizations": {
-      "textMateRules": [
-        {
-          "scope": ["comment", "punctuation.definition.comment"],
-          "settings": {
-            "foreground": "#6a6d74",
-            "fontStyle": "italic"
-          }
-        },
-        {
-          "scope": ["string", "punctuation.definition.string"],
-          "settings": {
-            "foreground": "#9aab8a" // Muted sage green
-          }
-        },
-        {
-          "scope": ["constant.numeric", "constant.language"],
-          "settings": {
-            "foreground": "#b8a78c" // Dusty tan
-          }
-        },
-        {
-          "scope": ["keyword", "storage.type", "storage.modifier"],
-          "settings": {
-            "foreground": "#a78bba" // Pale lavender
-          }
-        },
-        {
-          "scope": ["entity.name.function", "support.function"],
-          "settings": {
-            "foreground": "#7a9bba" // Dusty blue
-          }
-        },
-        {
-          "scope": ["variable", "meta.parameter"],
-          "settings": {
-            "foreground": "#ba8c8c" // Muted rose
-          }
-        }
-      ]
-    }
-  },
-
-  // ======================================
-  // UI Configuration
-  // ======================================
+  "editor.fontFamily": "'Fira Code', Hack, monospace",
+  "editor.formatOnSave": true,
   "workbench.tree.indent": 16,
   "workbench.list.smoothScrolling": true,
-  "window.titleBarStyle": "custom",
   "workbench.editor.wrapTabs": true,
   "workbench.iconTheme": "vs-minimal",
-
-  // ======================================
-  // Default Formatter
-  // ======================================
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-
-  // ======================================
-  // Prettier Settings
-  // ======================================
-  "prettier.singleQuote": true,
+  "prettier.singleQuote": false,
   "prettier.printWidth": 80,
   "prettier.tabWidth": 2,
   "prettier.semi": true,
   "prettier.trailingComma": "all",
   "prettier.bracketSpacing": true,
   "prettier.arrowParens": "always",
-  "prettier.bracketSameLine": true
+  "prettier.bracketSameLine": true,
+  "window.titleBarStyle": "custom",
+  "files.autoSave": "afterDelay"
 }
