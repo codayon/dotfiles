@@ -1,21 +1,5 @@
 {
   // ======================================
-  // Core Editor Settings
-  // ======================================
-  "editor.fontSize": 16,
-  "editor.tabSize": 2,
-  "editor.fontFamily": "'Fira Code', Hack, monospace",
-  "editor.fontLigatures": true,
-  "editor.lineHeight": 24,
-  "editor.linkedEditing": true,
-  "editor.cursorBlinking": "smooth",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.smoothScrolling": true,
-  "editor.renderWhitespace": "selection",
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active",
-
-  // ======================================
   // Green-Toned Theme (Dimmed Accents)
   // ======================================
   "workbench.colorTheme": "Monokai Dimmed",
@@ -91,45 +75,5 @@
   "workbench.list.smoothScrolling": true,
   "window.titleBarStyle": "custom",
   "workbench.editor.wrapTabs": true,
-  "workbench.iconTheme": "vs-minimal",
-
-  // ======================================
-  // Default Formatter
-  // ======================================
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-
-  // ======================================
-  // Prettier Settings
-  // ======================================
-  "prettier.singleQuote": true,
-  "prettier.printWidth": 80,
-  "prettier.tabWidth": 2,
-  "prettier.semi": true,
-  "prettier.trailingComma": "all",
-  "prettier.bracketSpacing": true,
-  "prettier.arrowParens": "always",
-  "prettier.bracketSameLine": true
+  "workbench.iconTheme": "vs-minimal"
 }
