@@ -18,6 +18,5 @@
   "terminal.integrated.fontSize": 16,
   "workbench.editor.wrapTabs": true,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.sideBar.location": "right",
-  "workbench.startupEditor": "none"
+  "workbench.sideBar.location": "right"
 }
