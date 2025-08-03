@@ -3,9 +3,8 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.cursorStyle": "block",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "'Hack', 'monospace'",
+  "editor.fontFamily": "'Hack', 'Fira Code','Cascadia Code','Consolas', 'monospace'",
   "editor.fontSize": 16,
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
@@ -13,10 +12,12 @@
   "editor.lineHeight": 28,
   "editor.renderLineHighlight": "all",
   "editor.smoothScrolling": true,
+  "files.autoSave": "afterDelay",
   "git.autofetch": true,
   "git.confirmSync": false,
   "terminal.integrated.fontSize": 16,
   "workbench.editor.wrapTabs": true,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none"
 }
