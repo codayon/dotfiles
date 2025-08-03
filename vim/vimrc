@@ -1,8 +1,0 @@
-" =====================
-" Useless Configuration
-" =====================
-set nocompatible		" Disable vi compatibility
-set number			" Show line numbers
-set relativenumber		" Show relative line numbers
-set ignorecase			" Case-insensitive search
-set mouse=a			" Enable mouse support
