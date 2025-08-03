@@ -1,0 +1,26 @@
+{
+  "logo": "none",
+  "modules": [
+    "break",
+    "os",
+    "wm",
+    "shell",
+    "kernel",
+    "packages",
+    "break",
+    "processes",
+    "memory",
+    "disk",
+    "uptime",
+    "break",
+    "cpu",
+    "gpu",
+    "board",
+    "break",
+    "display",
+    "localip",
+    "break",
+    "colors",
+    "break"
+  ]
+}
