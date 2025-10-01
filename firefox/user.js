@@ -22,3 +22,6 @@ user_pref("media.eme.enabled", false);
 
 // PREF: hide the UI setting; this also disables the DRM prompt (optional)
 user_pref("browser.eme.ui.enabled", false);
+
+// Show the menu bar (File/Edit/View/History/Bookmarks/Tools/Help)
+user_pref("ui.key.menuAccessKeyFocuses", false);
