@@ -1,0 +1,35 @@
+configuration {
+  font: "Hack 12";
+}
+
+@theme "default"
+
+window {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-color: rgb(165, 165, 165);
+  border-radius: 6px;
+  padding: 16px;
+  border: 2px;
+}
+
+inputbar {  
+  background-color: rgb(240, 240, 240);
+  border-radius: 6px;
+  padding: 8px;
+}
+
+listview {
+  columns: 2;
+  dynamic: true;
+  scrollbar: false;
+  spacing: 6px;
+}
+
+entry {
+  placeholder: "Type here";
+}
+
+element {
+  border-radius: 6px;
+  padding: 2px 8px;
+}
