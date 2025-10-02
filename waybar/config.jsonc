@@ -1,0 +1,11 @@
+{
+  "layer": "top",
+  "position": "bottom",
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["hyprland/window"],
+  "modules-right": ["clock"],
+  "clock": {
+    "tooltip": false,
+    "format-alt": "{:%Y-%m-%d}"
+  }
+}
