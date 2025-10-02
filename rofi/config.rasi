@@ -5,15 +5,15 @@ configuration {
 @theme "default"
 
 window {
-  background-color: rgba(0, 0, 0, 0.8);
-  border-color: rgb(165, 165, 165);
+  background-color: rgba(27, 27, 27, 0.8);
+  border-color: rgba(230, 230, 230, 1);
   border-radius: 6px;
   padding: 16px;
   border: 2px;
 }
 
 inputbar {  
-  background-color: rgb(240, 240, 240);
+  background-color: rgba(230, 230, 230, 1);
   border-radius: 6px;
   padding: 8px;
 }
@@ -26,7 +26,7 @@ listview {
 }
 
 entry {
-  placeholder: "Type here";
+  placeholder: "type here";
 }
 
 element {
